@@ -2,9 +2,6 @@
 import { test, expect } from '@playwright/test';
 import { createUserData, invalidUserPayload } from '../utils/dataFactory.js';
 
-/* -----------------------------
-   Small helpers
------------------------------ */
 
 // Try to read text from a locator if it exists; return "" otherwise
 async function getTextIfPresent(page, selector) {
