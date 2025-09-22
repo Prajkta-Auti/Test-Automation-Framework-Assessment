@@ -29,12 +29,12 @@ The app itself is a small Express server with user and transaction APIs, plus a 
 
 1. Clone the repo and install dependencies:
    ```bash
-   git clone <your-repo-url>
+   git clone git@github.com:Prajkta-Auti/Test-Automation-Framework-Assessment.git
    cd demo_fintech_app
    npm install
-Start the mock server:
 
-node server.js
+Start the mock server:
+  node server.js
 
 
 The app runs on http://localhost:3000
@@ -43,13 +43,11 @@ The app runs on http://localhost:3000
 Run the tests:
 
 Run everything:
-
-npx playwright test --project=chromium
+  npx playwright test --project=chromium
 
 
 Run only API tests:
-
-npx playwright test tests/api.spec.js
+  npx playwright test tests/api.spec.js
 
 
 Run only UI tests:
