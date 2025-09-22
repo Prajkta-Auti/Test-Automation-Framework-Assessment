@@ -1,0 +1,16 @@
+test-results/
+playwright-report/
+playwright/.cache/
+allure-results/
+allure-report/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db.DS_Store
